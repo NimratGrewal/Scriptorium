@@ -2,7 +2,7 @@ How to run Scriptorium locally:
 
 Getting Started
 
-- Git clone 
+- Git clone https://github.com/NimratGrewal/Scriptorium.git
 - Navigate to the project directory.
 - Make sure you have the Docker Daemon running the background.
 - Run the startup script (startup.sh). Wait for docker images to build and packages to install.
