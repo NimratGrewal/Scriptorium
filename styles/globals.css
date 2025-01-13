@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default light theme variables */
+:root {
+  --background: #fefefe;  /* Light background */
+  --foreground: #171717;  /* Dark text */
+}
+
+/* Dark theme variables when 'dark' class is applied to the <html> element */
+html.dark {
+  --background: #0a0a0a;  /* Dark background */
+  --foreground: #ededed;  /* Light text */
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@layer utilities {
+  /* Custom utility class to balance text wrapping */
+  .text-balance {
+    text-wrap: balance;
+  }
+}

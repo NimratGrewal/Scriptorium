@@ -1,0 +1,10 @@
+docker build -f "Dockerfile.c" -t "c-runner" .
+docker build -f "Dockerfile.cpp" -t "cpp-runner" .
+docker build -f "Dockerfile.python" -t "python-runner" .
+docker build -f "Dockerfile.java" -t "java-runner" .
+docker build -f "Dockerfile.javascript" -t "node" .
+docker build -f "Dockerfile.r" -t "r-runner" .
+docker build -f "Dockerfile.go" -t "go-runner" .
+docker build -f "Dockerfile.php" -t "php-runner" .
+docker build -f "Dockerfile.ruby" -t "ruby-runner" .
+docker build -f "Dockerfile.perl" -t "perl-runner" .
